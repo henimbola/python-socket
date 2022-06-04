@@ -1,5 +1,6 @@
 import socket
 import threading
+import os
 
 HEADER = 64
 PORT = 5050
@@ -24,6 +25,9 @@ def handle_client(conn, address):
 
             if msg == DISCONNECT_MESSAGE:
                 connected = False
+
+            if msg == "code":
+                os.system('code .')
 
             print(f'[{address}] {msg}')
             conn.send(input().encode(FORMAT))

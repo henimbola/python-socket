@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="99eaa7ee-67d2-4be5-912a-5023f713bf69" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client.py" beforeDir="false" afterPath="$PROJECT_DIR$/client.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/server.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,6 +32,11 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/file_transfer/recv" />
+    </key>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -64,6 +68,10 @@
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
     <state x="464" y="161" key="SettingsEditor/0.0.1920.1049@0.0.1920.1049" timestamp="1654322950162" />
+    <state x="624" y="198" width="668" height="652" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1654338698606">
+      <screen x="0" y="0" width="1920" height="1049" />
+    </state>
+    <state x="624" y="198" width="668" height="652" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1049@0.0.1920.1049" timestamp="1654338698606" />
     <state x="623" y="232" width="672" height="678" key="search.everywhere.popup" timestamp="1654330017419">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
