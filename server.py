@@ -26,6 +26,7 @@ def handle_client(conn, address):
                 connected = False
 
             print(f'[{address}] {msg}')
+            conn.send(input().encode(FORMAT))
 
         else:
             print(f'[{address}] No Message')

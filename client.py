@@ -18,8 +18,12 @@ def send(msg):
     send_length += b' ' * (HEADER - len(send_length))
     client.send(send_length)
     client.send(message)
+    print(client.recv(2048).decode(FORMAT))
 
+message = ""
 
-send('Hello world !')
-send('Hello Again ! It is ' + socket.gethostname())
-send(DISCONNECT_MESSAGE)
+while message != DISCONNECT_MESSAGE:
+    message = input("Client : ")
+    send(message)
+
+# send(DISCONNECT_MESSAGE)
